@@ -149,6 +149,7 @@ footer {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     margin-bottom: 72px;
+    padding-top: 120px;
 }
 
 .h-three-section {
@@ -288,7 +289,7 @@ ul {
 .opportunities {
     margin-bottom: 120px;
 }
-.section-our-team .container {
+.section-our-team {
         height: 732px;
             flex-shrink: 0;
 }

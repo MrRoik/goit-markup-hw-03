@@ -105,8 +105,8 @@ footer {
 }
 
 .h-one-section {
+    display: block;
     font-size: 56px;
-    text-align: center;
     line-height: 1.07;
     font-weight: 700;
     letter-spacing: 0.02em;
@@ -191,16 +191,21 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.04em;
     font-weight: 500;
+    padding: 12px 24px;
+    border-radius: 4px;
+    border: 1px solid var(--cornflower, #E7E9FC);
 }
 .button-filters:hover {
     background: var(--ocean, #404BBF);
     color: var(--primary-white-color);
     font-family: var(--primary-font);
     font-weight: 500;
+    border: 1px solid transparent;
 }
 .button-filters:focus {
     background: var(--ocean, #404BBF);
     color: var(--primary-white-color);
+    border: 1px solid transparent;
 }
 .h-two-section {
     color: var(--primary-black-color);
@@ -208,6 +213,7 @@ footer {
     line-height: 1.2;
     font-weight: 500;
     letter-spacing: 0.02em;
+    margin-bottom: 8px
 }
 
 h1,
@@ -277,6 +283,7 @@ img {
 .hero_image .container .button {
     display: block;
     min-width: 169px;
+    margin: 0 auto;
     height: 56px;
     border: none;
     padding: 16px 32px;
@@ -290,9 +297,6 @@ img {
     min-width: 1128px;
     padding-top: 120px;
     padding-bottom: 120px;
-}
-.section-description .headings {
-    visibility: visible;
 }
 .opportunities-list {
     width: calc((100% - 48px) / 3);
@@ -346,10 +350,10 @@ img {
     gap: 40px;
 }
 .container .button-filters-list {
-    display: inline-flex;
+    display: flex;
     align-items: flex-start;
+    justify-content: center;
         gap: 24px;
-        margin-top: 96px;
         margin-bottom: 72px;
 }
 .project-card {
@@ -370,10 +374,9 @@ img {
 }
 .card-content {
     display: flex;
-        padding-top: 32px;
-        padding-bottom: 32px;
-        padding-left: 16px;
-        padding-right: 16px;
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
@@ -389,4 +392,13 @@ img {
 .footer .logo {
     display: inline-block;
     margin-bottom: 16px;
+}
+
+
+
+/* Portfolio */
+
+.main-portfolio-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
 }

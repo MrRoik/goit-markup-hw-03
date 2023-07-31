@@ -371,6 +371,7 @@ img {
             gap: 32px;
             flex-shrink: 0;
             border: 1px solid var(--cornflower, #E7E9FC);
+            border: none;
 }
 .card-content {
     display: flex;

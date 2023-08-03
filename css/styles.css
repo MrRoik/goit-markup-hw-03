@@ -268,9 +268,7 @@ img {
             flex-direction: row;
             gap: 76px;
 }
-.header .logo {
-    margin-right: 76px;
-}
+
 .list-nav {
     gap: 40px;
 }
